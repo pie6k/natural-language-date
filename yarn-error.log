@@ -1,0 +1,42 @@
+Arguments: 
+  /Users/adampietrasiak/.nvm/versions/node/v11.15.0/bin/node /usr/local/bin/yarn add -D @typescript
+
+PATH: 
+  /Users/adampietrasiak/.nvm/versions/node/v11.15.0/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Apple/bin:/Users/adampietrasiak/go/bin:/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin:/Users/adampietrasiak/Library/Android/sdk/emulator:/Users/adampietrasiak/Library/Android/sdk/tools:/Users/adampietrasiak/Library/Android/sdk/tools/bin:/Users/adampietrasiak/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  11.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@typescript: Request "https://registry.yarnpkg.com/@typescript" returned a 405
+      at Request.params.callback [as _callback] (/Users/adampietrasiak/.config/yarn/global/node_modules/yarn/lib/cli.js:66264:18)
+      at Request.self.callback (/Users/adampietrasiak/.config/yarn/global/node_modules/yarn/lib/cli.js:129397:22)
+      at Request.emit (events.js:193:13)
+      at Request.<anonymous> (/Users/adampietrasiak/.config/yarn/global/node_modules/yarn/lib/cli.js:130369:10)
+      at Request.emit (events.js:193:13)
+      at IncomingMessage.<anonymous> (/Users/adampietrasiak/.config/yarn/global/node_modules/yarn/lib/cli.js:130291:12)
+      at Object.onceWrapper (events.js:281:20)
+      at IncomingMessage.emit (events.js:198:15)
+      at endReadableNT (_stream_readable.js:1139:12)
+      at processTicksAndRejections (internal/process/task_queues.js:81:17)
+
+npm manifest: 
+  {
+    "name": "natural-language-date",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Adam Pietrasiak <adam@pietrasiak.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
